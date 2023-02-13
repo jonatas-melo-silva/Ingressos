@@ -1,5 +1,9 @@
+import main.java.com.ingresso.*;
+
 class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
+    // criar ingresso
+    Ingresso ingresso = new Ingresso(100.0);
+    System.out.println(ingresso.getValor());
   }
 }
